@@ -1,0 +1,70 @@
+.messageBox {
+  background: #3B3F45; /* Darker background for messages */
+  border-radius: 20px;
+  padding: 10px 20px; /* Increased padding for better readability */
+  color: white;
+  display: inline-block;
+  max-width: 80%;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2); /* Light shadow for depth */
+}
+
+.messageText {
+  width: 100%;
+  letter-spacing: 0;
+  float: left;
+  font-size: 1.1em;
+  word-wrap: break-word;
+  color: #D1D1D1; /* Adjusted text color for better contrast */
+}
+
+.messageText img {
+  vertical-align: middle;
+}
+
+.messageContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 5%;
+  margin-top: 5px; /* Increased margin for better spacing */
+}
+
+.sentText {
+  display: flex;
+  align-items: center;
+  font-family: Helvetica;
+  color: #828282;
+  letter-spacing: 0.3px;
+  margin-right: 10px; /* Added margin for better text spacing */
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.colorDark {
+  color: #353535;
+}
+
+.backgroundBlue {
+  background: #FF9800; /* Changed to orange to match the theme */
+}
+
+.backgroundLight {
+  background: #F3F3F3;
+}

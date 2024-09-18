@@ -1,0 +1,37 @@
+.form {
+  display: flex;
+  border-top: 2px solid #D3D3D3;
+  background-color: #2C2F33; /* Match container background */
+  border-radius: 0 0 12px 12px; /* Rounded bottom edges */
+}
+
+.input {
+  border: none;
+  padding: 3%;
+  width: 80%;
+  font-size: 1.2em;
+  background-color: #3B3F45; /* Matching the input field background */
+  color: #D1D1D1;
+  border-radius: 8px 0 0 8px; /* Rounded input for smoother look */
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+.sendButton {
+  color: #fff !important;
+  text-transform: uppercase;
+  background: #FF9800; /* Changed to orange for consistency */
+  padding: 20px;
+  display: inline-block;
+  border: none;
+  width: 20%;
+  cursor: pointer;
+  border-radius: 0 8px 8px 0; /* Rounded button on the right */
+  transition: background-color 0.3s ease;
+}
+
+.sendButton:hover {
+  background-color: #E68A00; /* Darker orange on hover */
+}
